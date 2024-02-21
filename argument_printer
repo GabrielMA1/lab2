@@ -1,0 +1,7 @@
+import sys
+
+def print_arguments():
+    print("Script Name: ", sys.argv[0])
+    print("Script Name and Arguments: ", ' '.join(sys.argv))
+
+print_arguments()
